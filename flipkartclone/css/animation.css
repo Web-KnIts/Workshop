@@ -1,0 +1,30 @@
+.progressbar {
+    animation: LOAD 3s ease-in-out 1s 1;
+}
+
+@keyframes LOAD {
+    0% {
+        width: 20vw;
+        background-color: red;
+    }
+
+    30% {
+        width: 50vw;
+        background-color: red
+    }
+
+    80% {
+        width: 90vw;
+        background-color: red;
+    }
+
+    100% {
+        width: 100vw;
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    
+    
+}
